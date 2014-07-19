@@ -6,22 +6,23 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "~4.0.0",
-    "static-favicon": "~1.0.0",
-    "morgan": "~1.0.0",
-    "cookie-parser": "~1.0.1",
     "body-parser": "~1.0.0",
+    "cookie-parser": "~1.0.1",
     "debug": "~0.7.4",
+    "express": "^4.0.0",
     "jade": "~1.3.0",
-    "mongodb": "*",
-    "monk": "*"
+    "logfmt": "^1.1.2",
+    "mongodb": "^1.4.7",
+    "monk": "*",
+    "morgan": "~1.0.0",
+    "static-favicon": "~1.0.0"
   },
   "description": "test",
   "main": "app.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "github.com/koushik-git/nodetest"
+    "url": "https://github.com/koushik-git/nodetest.git"
   },
   "keywords": [
     "node"
